@@ -1,0 +1,5 @@
+hashring
+=============================
+
+.. automodule:: hashring
+    :members:
