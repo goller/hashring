@@ -24,7 +24,7 @@ def read(*names, **kwargs):
 
 setup(
     name="hashring",
-    version="1.4.0",
+    version="1.5.0",
     license="BSD",
     description="Implements consistent hashing in Python (using md5 as hashing function).",
     long_description="%s\n%s" % (read("README.rst"), re.sub(":obj:`~?(.*?)`", r"``\1``", read("CHANGELOG.rst"))),
