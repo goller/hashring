@@ -72,11 +72,11 @@ For merging, you should:
 3. Add a note to ``CHANGELOG.rst`` about the changes.
 4. Add yourself to ``AUTHORS.rst``.
 
-.. [1] If you don't have all the necessary python versions available locally you can rely on Travis - it will 
+.. [1] If you don't have all the necessary python versions available locally you can rely on Travis - it will
        `run the tests <https://travis-ci.org/goller/hashring/pull_requests>`_ for each change you add in the pull request.
-       
+
        It will be slower though ...
-       
+
 Tips
 ----
 

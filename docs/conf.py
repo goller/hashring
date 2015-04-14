@@ -18,7 +18,7 @@ if os.getenv('SPELLCHECK'):
 source_suffix = '.rst'
 master_doc = 'index'
 project = u'hashring'
-copyright = u'2014, Chris Goller'
+copyright = u'2015, Chris Goller'
 version = release = re.findall(
     'version="(.*)"',
     open(os.path.join(os.path.dirname(__file__), '../setup.py')).read()
