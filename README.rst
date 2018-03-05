@@ -33,15 +33,15 @@ hashring
     :alt: PyPI Package monthly downloads
     :target: https://pypi.python.org/pypi/hashring
 
-.. |wheel| image:: https://pypip.in/wheel/hashring/badge.png?style=flat
+.. |wheel| image:: https://img.shields.io/pypi/wheel/hashring.svg?style=flat
     :alt: PyPI Wheel
     :target: https://pypi.python.org/pypi/hashring
 
-.. |supported-versions| image:: https://pypip.in/py_versions/hashring/badge.png?style=flat
+.. |supported-versions| image:: https://img.shields.io/pypi/pyversions/hashring.svg?style=flat
     :alt: Supported versions
     :target: https://pypi.python.org/pypi/hashring
 
-.. |supported-implementations| image:: https://pypip.in/implementation/hashring/badge.png?style=flat
+.. |supported-implementations| image:: https://img.shields.io/pypi/implementation/hashring.svg?style=flat
     :alt: Supported imlementations
     :target: https://pypi.python.org/pypi/hashring
 
