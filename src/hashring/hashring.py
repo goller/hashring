@@ -39,9 +39,11 @@ from bisect import bisect
 if sys.version_info >= (2, 5):
     import hashlib
     md5_constructor = hashlib.md5
+    binary_type = str
 else:
     import md5
     md5_constructor = md5.new
+    binary_type = bytes
 
 
 class HashRing(object):
@@ -164,5 +166,6 @@ class HashRing(object):
 
     def _hash_digest(self, key):
         m = md5_constructor()
-        m.update(bytes(key.encode('utf-8')))
+        if isinstance(key, binary_type):
+            m.update(key.encode('utf-8'))
         return bytearray(m.digest())
