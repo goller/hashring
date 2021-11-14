@@ -1,5 +1,6 @@
 from hashring import HashRing
 
+
 def test_basic_ring():
     hr = HashRing(range(3))
     actual = hr.get_node('howdy')
@@ -16,3 +17,8 @@ def test_server_ring():
     actual = ring.get_node('my_key')
     expected = '192.168.0.247:11212'
     assert expected == actual
+
+
+def test_bytes_key():
+    ring = HashRing(range(10))
+    ring.get_node(b"foobar")
